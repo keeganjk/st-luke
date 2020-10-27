@@ -113,14 +113,14 @@ float alpha = 1.0;
 
  /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#09080D",
+	"#212025",
 	"#8c6269", //"#805159",
 	"#73785b", //"#646949", 
 	"#857551", //"#78663E",
-	"#5f6f89", //"#4E5F7C", 
+	/*"#5f6f89",*/ "#4E5F7C", 
 	"#6a5974", //"#5A4765", 
 	"#628c85", //"#518078",
-	"#7e8989", //"#707C7C",
+	"#929c9c", //"#7e8989", //"#707C7C",
 
 	"#52505B",
 	"#a1777e", //"#976870",
@@ -130,15 +130,22 @@ static const char *colorname[] = {
 	"#8b719c", //"#7F6292",
 	"#77a19a", //"#68978F",
 	"#939394", //"#878789",
+	
+	[255] = 0,
+	"#667893", /* 256 -> cursor */
+	"#938166", /* 257 -> rev cursor*/
+	"#09080d", /* 258 -> bg*/
+	//"#dedede", /* 259 -> fg*/
+	"#c7c7c7", /* 259 -> fg*/
 };
 
  /*
  * Default colors (colorname index)
  * foreground, background, cursor
  */
-unsigned int defaultfg = 15;
-unsigned int defaultbg = 0;
-unsigned int defaultcs = 15;
+unsigned int defaultfg = 259;
+unsigned int defaultbg = 258;
+unsigned int defaultcs = 256;
 unsigned int defaultrcs = 257;
 
 /*
