@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "-ypn-envypn-Medium-R-*-*-15-*-*-*-*-*-ISO8859-1";
-static char *font2[] = { "JoyPixels:pixelsize=15", "Unifont:pixelsize=15" };
+static char *font = "-ypn-envypn-Medium-R-*-*-15-*-*-*-*-*-ISO8859-2";
+static char *font2[] = { "JoyPixels:pixelsize=14", "Unifont:pixelsize=14:antialias=true" };
 static int borderpx = 2;
 
 /*
