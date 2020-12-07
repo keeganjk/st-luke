@@ -5,8 +5,6 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-//static char *font = "-ypn-envypn-Medium-R-*-*-15-*-*-*-*-*-ISO8859-2";
-//static char *font = "Unifont:pixelsize=16";
 static char *font = "xos4 Terminus:pixelsize=14";
 static char *font2[] = { "JoyPixels:pixelsize=14", "東風明朝:pixelsize=14"  };
 static int borderpx = 2;
