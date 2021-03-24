@@ -5,7 +5,6 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-//static char *font = "xos4 Terminus:pixelsize=14";
 static char *font = "Terminus:pixelsize=14";
 static char *font2[] = { "東風明朝:pixelsize=14", "JoyPixels:pixelsize=14", "Symbola:pixelsize=14" };
 static int borderpx = 6;
