@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Terminus:pixelsize=14";
-static char *font2[] = { "東風明朝:pixelsize=14", "JoyPixels:pixelsize=14", "Symbola:pixelsize=14" };
-static int borderpx = 6;
+static char *font = "Misc Termsyn-12";
+static char *font2[] = { "Terminus:pixelsize=12:antialias=false", "Symbola:pixelsize=12:antialias=false", "東風明朝:pixelsize=12", "JoyPixels:pixelsize=12", "Fira Code:pixelsize=12" };
+static int borderpx = 10;
 
 /*
  * What program is execed by st depends of these precedence rules:
