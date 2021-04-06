@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Misc Termsyn-12";
-static char *font2[] = { "Terminus:pixelsize=12:antialias=false", "Symbola:pixelsize=12:antialias=false", "東風明朝:pixelsize=12", "JoyPixels:pixelsize=12", "Fira Code:pixelsize=12" };
+static char *font2[] = { "Terminus:pixelsize=12:antialias=false", "Symbola:pixelsize=12:antialias=false", "東風明朝:pixelsize=12:antialias=false", "Source Han Serif CN:pixelsize=12:antialias=false", "JoyPixels:pixelsize=12:antialias=false", "Fira Code:pixelsize=12:antialias=false" };
 static int borderpx = 10;
 
 /*
